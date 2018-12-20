@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Lab12</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/lab12/Cat Coffee GIF by hoppip-source.gif</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Downloads/Cat%20Coffee%20GIF%20by%20hoppip-source.gif</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
