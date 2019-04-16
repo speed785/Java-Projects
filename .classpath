@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="AccountTransact/src"/>
+	<classpathentry kind="src" path="ArrayAnimals/src"/>
+	<classpathentry kind="src" path="Arrays/src"/>
+	<classpathentry kind="src" path="ArraySorts/src"/>
+	<classpathentry kind="src" path="BMI_Calculator/src"/>
+	<classpathentry kind="src" path="ClassEx5/src"/>
+	<classpathentry kind="src" path="Clock/src"/>
+	<classpathentry kind="src" path="Coin Flip/src"/>
+	<classpathentry kind="src" path="DataAnalytics/src"/>
+	<classpathentry kind="src" path="DataApplication/src"/>
+	<classpathentry kind="src" path="DateTime/src"/>
+	<classpathentry kind="src" path="FunWithStrings/src"/>
+	<classpathentry kind="src" path="Garden Shop/src"/>
+	<classpathentry kind="src" path="GiftCards/src"/>
+	<classpathentry kind="src" path="Graphics/src"/>
+	<classpathentry kind="src" path="GUI Projects/src"/>
+	<classpathentry kind="src" path="GuiExercise/src"/>
+	<classpathentry kind="src" path="GUIwHandling/src"/>
+	<classpathentry kind="src" path="HW5/src"/>
+	<classpathentry kind="src" path="InheritanceConcepts/src"/>
+	<classpathentry kind="src" path="Instructors/src"/>
+	<classpathentry kind="src" path="Inventory/src"/>
+	<classpathentry kind="src" path="JAVA/src"/>
+	<classpathentry kind="src" path="JavaNote/src"/>
+	<classpathentry kind="src" path="Lab12/src"/>
+	<classpathentry kind="src" path="Lab6/src"/>
+	<classpathentry kind="src" path="LoopDemo/src"/>
+	<classpathentry kind="src" path="LoopingTechniques/src"/>
+	<classpathentry kind="src" path="Menus/src"/>
+	<classpathentry kind="src" path="MidtermPart2/src"/>
+	<classpathentry kind="src" path="Overloaded Constructor/src"/>
+	<classpathentry kind="src" path="Poem/src"/>
+	<classpathentry kind="src" path="PrattParkingGarage/src"/>
+	<classpathentry kind="src" path="Read_Write/src"/>
+	<classpathentry kind="src" path="RetailStore/src"/>
+	<classpathentry kind="src" path="RPGSimulator/src"/>
+	<classpathentry kind="src" path="Scanner/src"/>
+	<classpathentry kind="src" path="Shapes/src"/>
+	<classpathentry kind="src" path="SimpleGUI/src"/>
+	<classpathentry kind="src" path="Steganography/src"/>
+	<classpathentry kind="src" path="StringBuilder/src"/>
+	<classpathentry kind="src" path="TaskManagement/src"/>
+	<classpathentry kind="src" path="Test/src"/>
+	<classpathentry kind="src" path="TheTransportationSystem/src"/>
+	<classpathentry kind="src" path="Week10/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
