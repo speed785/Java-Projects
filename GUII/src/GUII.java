@@ -49,12 +49,12 @@ public class GUII extends JFrame {
 		rdbtnNewRadioButton.setBounds(165, 138, 169, 93);
 		contentPane.add(rdbtnNewRadioButton);
 		
-		JButton btnNewButton = new JButton("ass");
+		JButton btnNewButton = new JButton("button example");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnNewButton.setBounds(16, 59, 117, 29);
+		btnNewButton.setBounds(16, 59, 162, 67);
 		contentPane.add(btnNewButton);
 	}
 }
