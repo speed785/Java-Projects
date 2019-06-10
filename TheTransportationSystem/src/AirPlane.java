@@ -50,19 +50,19 @@ public class AirPlane extends JFrame {
 		contentPane.setLayout(null);
 		
 		JComboBox comboBox = new JComboBox();
-		comboBox.setBounds(6, 6, 157, 91);
+		comboBox.setBounds(6, 6, 157, 121);
 		contentPane.add(comboBox);
 		
 		JComboBox comboBox_1 = new JComboBox();
-		comboBox_1.setBounds(6, 121, 157, 91);
+		comboBox_1.setBounds(6, 121, 157, 159);
 		contentPane.add(comboBox_1);
 		
 		JComboBox comboBox_2 = new JComboBox();
-		comboBox_2.setBounds(275, 6, 157, 91);
+		comboBox_2.setBounds(275, 21, 157, 91);
 		contentPane.add(comboBox_2);
 		
 		JComboBox comboBox_3 = new JComboBox();
-		comboBox_3.setBounds(275, 121, 157, 91);
+		comboBox_3.setBounds(275, 121, 157, 159);
 		contentPane.add(comboBox_3);
 		
 		JLabel lblFrom = new JLabel("Origin:");
@@ -91,7 +91,7 @@ public class AirPlane extends JFrame {
 						frame.setVisible(true);
 			}
 		});
-		btnProcess.setBounds(629, 292, 157, 59);
+		btnProcess.setBounds(575, 331, 157, 59);
 		contentPane.add(btnProcess);
 		
 		JSpinner comboBox_4 = new JSpinner();
@@ -111,11 +111,15 @@ public class AirPlane extends JFrame {
 		contentPane.add(lblLengthOfStay);
 		//discount message
 		JTextPane txtpnIfYouHave = new JTextPane();
+		txtpnIfYouHave.setForeground(Color.WHITE);
+		txtpnIfYouHave.setBackground(Color.WHITE);
 		txtpnIfYouHave.setText("If you have more than 5 passengers");
 		txtpnIfYouHave.setBounds(17, 335, 278, 16);
 		contentPane.add(txtpnIfYouHave);
 		
 		JTextPane txtpnYouAre = new JTextPane();
+		txtpnYouAre.setForeground(Color.WHITE);
+		txtpnYouAre.setBackground(Color.WHITE);
 		txtpnYouAre.setText("You are eligible for a 10% volume discount!");
 		txtpnYouAre.setBounds(17, 349, 278, 16);
 		contentPane.add(txtpnYouAre);
@@ -131,7 +135,7 @@ public class AirPlane extends JFrame {
 						
 			}
 		});
-		btnNewButton.setBounds(649, 6, 137, 59);
+		btnNewButton.setBounds(595, 22, 137, 59);
 		contentPane.add(btnNewButton);
 		//options of companies
 		JRadioButton rdbtnSpiritAirlines = new JRadioButton("Spirit Airlines");
@@ -152,7 +156,7 @@ public class AirPlane extends JFrame {
 		
 		JLabel lblChooseYourAir = new JLabel("Choose Your Air Plane Carrier:");
 		lblChooseYourAir.setBackground(Color.WHITE);
-		lblChooseYourAir.setBounds(444, 121, 204, 16);
+		lblChooseYourAir.setBounds(447, 121, 204, 16);
 		contentPane.add(lblChooseYourAir);
 	}
 }

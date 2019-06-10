@@ -63,52 +63,52 @@ public class Payment extends JFrame {
 		contentPane.add(chckbxCreditCard);
 		
 		textField = new JTextField();
-		textField.setBounds(144, 58, 296, 26);
+		textField.setBounds(145, 79, 296, 47);
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("Card Number:");
-		lblNewLabel.setBounds(18, 63, 116, 16);
+		lblNewLabel.setBounds(17, 89, 116, 16);
 		contentPane.add(lblNewLabel);
 		
 		textField_1 = new JTextField();
 		textField_1.setColumns(10);
-		textField_1.setBounds(144, 96, 57, 26);
+		textField_1.setBounds(145, 147, 69, 38);
 		contentPane.add(textField_1);
 		
 		JLabel lblExperrtionDate = new JLabel("Exp. Date:");
-		lblExperrtionDate.setBounds(18, 101, 116, 16);
+		lblExperrtionDate.setBounds(15, 135, 116, 16);
 		contentPane.add(lblExperrtionDate);
 		
 		JLabel lblMo = new JLabel("Month:");
-		lblMo.setBounds(84, 101, 61, 16);
+		lblMo.setBounds(85, 156, 61, 16);
 		contentPane.add(lblMo);
 		
 		JLabel lblYear = new JLabel("Year:");
-		lblYear.setBounds(213, 101, 61, 16);
+		lblYear.setBounds(216, 155, 61, 16);
 		contentPane.add(lblYear);
 		
 		textField_2 = new JTextField();
 		textField_2.setColumns(10);
-		textField_2.setBounds(259, 96, 57, 26);
+		textField_2.setBounds(259, 146, 73, 39);
 		contentPane.add(textField_2);
 		
 		textField_3 = new JTextField();
 		textField_3.setColumns(10);
-		textField_3.setBounds(144, 134, 296, 26);
+		textField_3.setBounds(146, 191, 296, 52);
 		contentPane.add(textField_3);
 		
 		JLabel lblNameOnCard = new JLabel("Name on Card:");
-		lblNameOnCard.setBounds(17, 129, 103, 31);
+		lblNameOnCard.setBounds(15, 198, 103, 31);
 		contentPane.add(lblNameOnCard);
 		
 		textField_4 = new JTextField();
-		textField_4.setBounds(144, 172, 155, 26);
+		textField_4.setBounds(145, 253, 194, 46);
 		contentPane.add(textField_4);
 		textField_4.setColumns(10);
 		
 		JLabel lblNewLabel_1 = new JLabel("Security Code:");
-		lblNewLabel_1.setBounds(18, 172, 102, 26);
+		lblNewLabel_1.setBounds(13, 254, 102, 26);
 		contentPane.add(lblNewLabel_1);
 		
 		JCheckBox chckbxDebitCard = new JCheckBox("Debit Card");
@@ -116,12 +116,12 @@ public class Payment extends JFrame {
 		contentPane.add(chckbxDebitCard);
 		
 		textField_5 = new JTextField();
-		textField_5.setBounds(146, 252, 130, 26);
+		textField_5.setBounds(145, 306, 163, 45);
 		contentPane.add(textField_5);
 		textField_5.setColumns(10);
 		
 		JLabel lblNewLabel_2 = new JLabel("Zip Code:");
-		lblNewLabel_2.setBounds(18, 252, 91, 26);
+		lblNewLabel_2.setBounds(19, 308, 91, 26);
 		contentPane.add(lblNewLabel_2);
 		//Option to go back to the transport methods
 		JButton btnNewButton = new JButton("Go Back:");
@@ -147,11 +147,15 @@ public class Payment extends JFrame {
 						frame.setVisible(true);
 			}
 		});
-		btnNewButton_1.setBounds(510, 252, 197, 67);
+		btnNewButton_1.setBounds(510, 284, 197, 67);
 		contentPane.add(btnNewButton_1);
 		
 		JCheckBox chckbxAndroidPay = new JCheckBox("Android Pay");
-		chckbxAndroidPay.setBounds(6, 28, 128, 23);
+		chckbxAndroidPay.setBounds(6, 28, 128, 38);
 		contentPane.add(chckbxAndroidPay);
+		
+		JCheckBox chckbxCash = new JCheckBox("Cash");
+		chckbxCash.setBounds(146, 31, 128, 36);
+		contentPane.add(chckbxCash);
 	}
 }
